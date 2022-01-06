@@ -154,14 +154,12 @@ label{
     border-radius: 10px;
 }
 footer{
-    box-sizing: border-box;
-    padding-top: 3%;
-    margin-top: -20px;
+    margin-top: -28px;
+    text-align: center;
     height: 200px;
     width: 100%;
-    text-align: center;
-    color: blanchedalmond;
     background-color: black;
+    color: white;
 }
 footer h3{
     font-size: 30px;
