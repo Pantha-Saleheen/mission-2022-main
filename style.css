@@ -55,7 +55,7 @@ body{
     height: 500px;
     width: 100%;
 }
-.my-mission h2{
+h2,.my-mission h2{
     text-align: center;
     font-size: 50px;
     font-family: 'Yeseva One', cursive;
@@ -116,8 +116,40 @@ body{
     height: auto;
 }
 .contact-section{
-    margin-top: 70px;
     background-color: #eee;
+    box-sizing: border-box;
+    margin-top: 70px;
     height: 700px;
     width: 100%;
+    padding: 3%;
+}
+.contact-section h3{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.left{
+    height: 100%;
+}
+.right{
+    height: 100%;
+}
+label{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#user-name,#email{
+    font-size: 20px;
+    height: 30px;
+    width: 40%;
+}
+#about-project{
+    width: 50%;
+    font-size: 30px;
+}
+#submit-button{
+    height: 60px;
+    width: 20%;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
 }
